@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,7 +18,7 @@ spec:
     spec:
       containers:
       - name: app-phpfpm
-        image: dqtho/php-app:0.1.0
+        image: dqtho/php-app:0.1.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9000
@@ -46,7 +47,7 @@ spec:
     spec:
       containers:
       - name: app-nginx
-        image: "bitnami/nginx:latest"
+        image: "bitnami/nginx:1.18"
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
