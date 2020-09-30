@@ -3,6 +3,8 @@ kind: ConfigMap
 metadata:
   name: app-config
   namespace: demo
+  annotations:
+    fluxcd.io/automated: "true"
 data:
   nginx.conf: |-
     server {
