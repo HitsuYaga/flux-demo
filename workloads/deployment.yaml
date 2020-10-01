@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: app-nginx
-        image: "bitnami/nginx:1.19.3-debian-10-r2"
+        image: "bitnami/nginx:1.18.0-debian-10-r144"
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
