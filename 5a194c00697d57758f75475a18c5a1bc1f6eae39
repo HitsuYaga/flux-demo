@@ -1,0 +1,1 @@
+{"jobID":"ef0f7e61-df90-9931-05fc-a6bc0a89d0dc","spec":{"type":"policy","cause":{"Message":"","User":"HitsuYaga"},"spec":{"demo:deployment/nginx":{"add":{},"remove":{"automated":"true"}}}},"result":null}
