@@ -1,0 +1,1 @@
+{"jobID":"42f0729f-df8a-63e3-7628-69d89090de76","spec":{"type":"policy","cause":{"Message":"","User":"HitsuYaga"},"spec":{"demo:deployment/phpfpm":{"add":{},"remove":{"automated":"true"}}}},"result":null}
